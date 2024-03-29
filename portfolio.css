@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #6b3c99;
+  color: white;
+  padding: 20px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-intro {
+  max-width: 600px;
+}
+
+.right-intro img {
+  width: 500px; 
+  height: 500px; 
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.role {
+  font-size: 63px;
+  margin-top: 10px;
+  color:#6b3c99;
+  font-weight: bold;
+}
+
+#portfolio .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: calc(33.33% - 40px);
+  margin: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-inner {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-inner h3 {
+  margin-top: 0;
+}
+
+.card-inner a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6b3c99;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card-inner a:hover {
+  background-color: #4a2566;
+}
+
+#about {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+#about .container {
+  text-align: center;
+}
+
+#about h2 {
+  color: #6b3c99;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#about p {
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#contact {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+#contact .container {
+  text-align: center;
+}
+
+#contact h2 {
+  color: #6b3c99;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6b3c99;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #4a2566;
+}

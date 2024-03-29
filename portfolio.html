@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Beautiful Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <nav>
+        <ul>
+          <li><a href="#home">🏠 Home</a></li>
+          <li><a href="#about">👩‍💻 About</a></li>
+          <li><a href="#portfolio">🎨 Portfolio</a></li>
+          <li><a href="#contact">📧 Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="container">
+      <div class="intro">
+        <div class="left-intro">
+          <h1>Hi! My name is Avani Goel</h1>
+          <p class="role" id="role">I am a <span class="highlight">student</span></p>
+        </div>
+        <div class="right-intro">
+          <img src="profimg.gif" alt="Profile Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a dedicated BTech IT student at Banasthali Vidyapith, with a keen interest in software engineering 
+        and a goal to excel as a full-stack web developer. Proficient in languages like Python, C/C++, and SQL, 
+        I specialize in Data Structures and Algorithms. With a current CGPA of 9.41, I've undertaken projects like
+         a Two-Pass Macro Processor, showcasing my skills in C and File Handling. Alongside, I've achieved milestones on platforms like 
+         LeetCode and HackerRank, and I possess strong soft skills in time management, teamwork, and leadership. 
+         Outside academics, I indulge in reading, writing poetry, and 
+        public speaking, where I've won accolades, exhibiting my diverse interests and abilities.</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <p></p>
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="card">
+        <div class="card-inner">
+            <h3>AI Chatbot for Mental Health Support</h3><p></p>
+            <p></p>
+            <p></p>
+            Created an AI chatbot to help mental health patients. Used technology like AI and NLP.<p></p><p></p>
+            <a href="#">View</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+            <h3>Weed Detection System</h3><p></p>
+            <p></p>
+            <p></p>
+            Created a tool, which using image detection, can detect weeds in a field. Technology used were deep learning and YOLOv3<p></p><p></p>
+            <a href="#">View</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+            <h3>Food classification System</h3><p></p>
+            <p></p>
+            <p></p>
+            Created a tool, which using SqueezeNet and VCG-16 convolutional neural network classify food. <p></p><p></p>
+            <a href="#">View</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
